@@ -43,6 +43,7 @@ fieldset {
 
 .content {
   display: flex;
+  justify-content: center;
   align-items: flex-end;
   gap: 30px;
   width: 1140px;
@@ -259,7 +260,7 @@ li:not(:last-child) {
 }
 
 .content__video-card-title {
-  margin-bottom: 6px;
+  margin-bottom: 5px;
   color: #fff;
   font-family: Oswald;
   font-weight: 700;
