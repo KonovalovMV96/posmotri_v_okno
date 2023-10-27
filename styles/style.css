@@ -239,7 +239,7 @@ li[class="content__list-item"]:not(:last-child) {
 
 .content__card-link:hover {
   text-decoration-line: underline;
-  text-underline-offset: 5px;
+  text-underline-offset: 1px;
 }
 
 .content__card-link:focus {
@@ -297,6 +297,6 @@ li[class="content__list-item"]:not(:last-child) {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-  object-fit: contain;
-  object-position: right center;
+  object-fit: cover;
+  object-position: center;
 }
